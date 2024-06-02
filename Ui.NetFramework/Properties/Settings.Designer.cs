@@ -22,6 +22,21 @@ namespace Percentage.Ui.NetFramework.Properties {
                 return defaultInstance;
             }
         }
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool DisplayIconFull
+        {
+            get
+            {
+                return ((bool)(this["DisplayIconFull"]));
+            }
+            set
+            {
+                this["DisplayIconFull"] = value;
+            }
+        }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
