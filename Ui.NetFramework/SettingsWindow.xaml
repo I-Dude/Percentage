@@ -228,6 +228,7 @@
                 <RowDefinition Height="40" />
                 <RowDefinition Height="40" />
                 <RowDefinition Height="40" />
+                <RowDefinition Height="40" />
                 <RowDefinition />
             </Grid.RowDefinitions>
             <TextBlock Text="Tray icon font " />
@@ -293,10 +294,20 @@
                 <system:Int32>30</system:Int32>
                 <system:Int32>60</system:Int32>
             </ComboBox>
+
             <TextBlock Grid.Row="2"
                        Grid.Column="0"
+                       Text="Display full icon" />
+            <CheckBox Content="Display battery icon when full charged"
+                      Grid.Row="2"
+                      Grid.Column="1"
+                      Grid.ColumnSpan="3"
+                      IsChecked="{Binding DisplayIconFull, Source={x:Static properties:Settings.Default}, Mode=TwoWay}" />
+
+            <TextBlock Grid.Row="3"
+                       Grid.Column="0"
                        Text="Start with Windows" />
-            <DockPanel Grid.Row="2"
+            <DockPanel Grid.Row="3"
                        Grid.Column="1"
                        Grid.ColumnSpan="3">
                 <CheckBox x:Name="AutoStart"
@@ -311,7 +322,7 @@
                            x:FieldModifier="private"
                            Visibility="Collapsed" />
             </DockPanel>
-            <TextBlock Grid.Row="3"
+            <TextBlock Grid.Row="4"
                        Grid.ColumnSpan="4"
                        Grid.Column="0"
                        TextWrapping="Wrap"
