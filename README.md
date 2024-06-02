@@ -3,16 +3,16 @@
 2. Get Windows notification when your battery is critical, low, high, and full.
 
 #### Dark theme
-![Application screenshot](https://raw.githubusercontent.com/soleon/percentage/master/dark.png)
+![Application screenshot](https://raw.githubusercontent.com/I-Dude/percentage/master/dark.png)
 
 #### Light theme
-![Application screenshot](https://raw.githubusercontent.com/soleon/percentage/master/light.png)
+![Application screenshot](https://raw.githubusercontent.com/I-Dude/percentage/master/light.png)
 
 #### Battery Details
-![Battery Details screenshot](https://raw.githubusercontent.com/soleon/Percentage/master/details.png)
+![Battery Details screenshot](https://raw.githubusercontent.com/I-Dude/Percentage/master/details.png)
 
 #### Settings
-![Settings screenshot](https://raw.githubusercontent.com/soleon/Percentage/master/settings.png)
+![Settings screenshot](https://raw.githubusercontent.com/I-Dude/Percentage/master/settings.png)
 
 ## Requirement
 This application requires:
